@@ -1,0 +1,15 @@
+name = AliceAnselmi menu rules
+description = Rules for handling the menu items
+core = 7.x
+package = AA (Features)
+version = 7.x-1.0
+project = aa_rules_menu
+dependencies[] = entity
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rules
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[rules_config][] = rules_fix_menu_item_for_new_project
+features[rules_config][] = rules_fix_menu_item_for_new_project_first_node_x_type
+features[rules_config][] = rules_update_navigation_color
